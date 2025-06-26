@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Your Daily Task Maneger"
+rootProject.name = "Final"
 include(":app")
  

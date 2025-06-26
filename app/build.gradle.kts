@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.kajol.yourdailytaskmaneger"
+    namespace = "com.jadhav.afinal"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.kajol.yourdailytaskmaneger"
-        minSdk = 26
+        applicationId = "com.jadhav.afinal"
+        minSdk = 22
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -40,7 +40,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation("androidx.recyclerview:recyclerview:1.3.1")
-
-
 }
